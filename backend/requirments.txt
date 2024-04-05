@@ -1,0 +1,11 @@
+Flask == 2.0.1
+Flask-Cors == 3.0.1
+pymongo
+pytest
+
+#npm install --save-dev eslint eslint-plugin-vue
+vue create library_ms
+
+frontend
+npm i axios  
+vue add vuetify

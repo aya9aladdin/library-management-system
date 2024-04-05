@@ -1,0 +1,40 @@
+POST http://127.0.0.1:5000/books/
+Content-Type: application/json
+
+{
+  "author": "chemistry",
+  "ISBN": "454545",
+  "genre": "science",
+  "title": "molecular chemistry",
+  "pub_year": "1999",
+  "_id": "id"
+}
+
+###
+
+PUT http://127.0.0.1:5000/books/660f9199f30564aacceff1bb
+Content-Type: application/json
+
+{
+    "_id":"234",
+  "title": "Modmn Nga7",
+  "author": "comedy gold",
+  "ISBN": "12345678D90",
+  "genre": "romance",
+  "pub_year": 2020
+}
+
+###
+
+GET http://127.0.0.1:5000/books/660f762b8a20c1ac58d96ade
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:5000/books/
+Content-Type: application/json
+
+###
+
+DELETE http://127.0.0.1:5000/books/660f762b8a20c1ac58d96ade
+Content-Type: application/json
