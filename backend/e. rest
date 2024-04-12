@@ -16,12 +16,7 @@ PUT http://127.0.0.1:5000/books/660f9199f30564aacceff1bb
 Content-Type: application/json
 
 {
-    "_id":"234",
-  "title": "Modmn Nga7",
-  "author": "comedy gold",
-  "ISBN": "12345678D90",
-  "genre": "romance",
-  "pub_year": 2020
+
 }
 
 ###
